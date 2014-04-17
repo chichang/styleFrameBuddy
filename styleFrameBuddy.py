@@ -4,7 +4,7 @@
 #======================
 import os
 import sys
-sys.path.append("/USERS/chichang/tools/mari/styleFrameBuddy/")
+#sys.path.append("/USERS/chichang/tools/mari/styleFrameBuddy/")
 import json
 import re
 import mari
@@ -445,7 +445,8 @@ class PubCommentWindow():
 #   RUN
 #======================================================================
 if __name__ == "__main__":
-
+    pass
+    '''
     try:
         if styleFrameBuddy.ui.isVisible():
             styleFrameBuddy.ui.reject()
@@ -454,3 +455,4 @@ if __name__ == "__main__":
 
     styleFrameBuddy = styleFrameBuddyWindow()
 	styleFrameBuddy.showUI()
+    '''
